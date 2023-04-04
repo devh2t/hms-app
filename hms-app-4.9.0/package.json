@@ -1,8 +1,8 @@
 {
   "name": "hms-app-4-9-0",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "0.9.0",
+  "description": "An HMS application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -17,10 +17,10 @@
     "pg": "8.8.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Youssef BERDAI"
   },
   "strapi": {
-    "uuid": "5045e1b1-99b9-4f51-b9b0-6fe1418e432c"
+    "uuid": "531985"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
