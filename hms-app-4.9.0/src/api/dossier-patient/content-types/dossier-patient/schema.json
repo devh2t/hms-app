@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dossiers_patients",
+  "info": {
+    "singularName": "dossier-patient",
+    "pluralName": "dossiers-patients",
+    "displayName": "Dossiers patients",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pseudo": {
+      "type": "string",
+      "unique": true
+    },
+    "centre": {
+      "type": "enumeration",
+      "enum": [
+        "Marrakech",
+        "Agadir",
+        "Casablanca",
+        "Rabat"
+      ],
+      "required": true
+    },
+    "code_unique": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "maxLength": 7,
+      "minLength": 7
+    }
+  }
+}
