@@ -19,6 +19,9 @@ const config = {
         "Tous les utilisateurs ayant accès au panneau d'administration de l'application",
       "notification.version.update.message":
         "Une nouvelle version de l'application est disponible !",
+      "content-manager.apiError.This attribute must be unique":
+        "Le champ {field} doit être unique",
+      "global.plugins.i18n": "Langues",
     },
   },
   // Disable video tutorials
@@ -29,14 +32,14 @@ const config = {
   theme: {
     // overwrite light theme properties
     light: {
-      // colors: {
-      //   primary100: "#f6ecfc",
-      //   primary200: "#e0c1f4",
-      //   primary500: "#ac73e6",
-      //   primary600: "#9736e8",
-      //   primary700: "#8312d1",
-      //   danger700: "#b72b1a",
-      // },
+      colors: {
+        primary100: "#D6E4FF",
+        primary200: "#ADC8FF",
+        primary500: "#3366FF",
+        primary600: "#254EDB",
+        primary700: "#1939B7",
+        danger700: "#B71611",
+      },
     },
 
     // overwrite dark theme properties
